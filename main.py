@@ -48,7 +48,11 @@ def moveWindow(windowCoords=list, monitorDimensions=tuple):
 
 if __name__ == "__main__":
     monitorDimensions = (get_monitors()[0].width, get_monitors()[0].height)
+<<<<<<< HEAD
     img = cv2.imread(r"./error.jpg")
+=======
+    img = cv2.imread("Trolls/movingPopup/error.jpg")
+>>>>>>> 60cac60129ea394c4d1a159be07670aca850550e
 
     cv2.imshow("Fatal Error!", img)
     cv2.moveWindow("Fatal Error!", int(monitorDimensions[0]/2)-200, int(monitorDimensions[1]/2)-130)
